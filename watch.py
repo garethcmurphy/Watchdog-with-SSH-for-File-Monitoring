@@ -4,6 +4,11 @@ import time
 import logging
 from watchdog.observers import Observer
 from watchdog.events import LoggingEventHandler
+from watchdog.events import FileSystemEventHandler
+
+
+class MyEventHandler(FileSystemEventHandler):
+    pass
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO,
