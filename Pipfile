@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 watchdog = "*"
 pylint = "*"
+paramiko = "*"
+scp = "*"
 
 [dev-packages]
 pylint = "*"
